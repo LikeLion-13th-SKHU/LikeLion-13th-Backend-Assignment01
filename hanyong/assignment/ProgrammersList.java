@@ -3,10 +3,8 @@ package assignment;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
-public class ProgrammersList {
-    public static void main(String[] args) {
-        public int[] solution(int n, int[] slicer, int[] num_list) {
+class Solution{
+public int[] solution(int n, int[] slicer, int[] num_list) {
             List<Integer> list = new ArrayList<>(); // 리스트 선언
             int a = slicer[0];
             int b = slicer[1];
@@ -30,15 +28,17 @@ public class ProgrammersList {
                 }
             }
 
-            int [] answer = new int[list.size()];
+            int [] answer = new int[list.size()];//Integer를 int타입으로 바꾸기 위함
             for(int i = 0; i< list.size(); i++){
                 answer[i] = list.get(i);
             }
             return answer;
         }
+}
+public class ProgrammersList {
+    public static void main(String[] args) {
+        
     }
-
-
 
     }
 
