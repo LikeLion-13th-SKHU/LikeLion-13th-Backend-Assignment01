@@ -1,6 +1,6 @@
 ## Description
 
-<!— 구현 및 과제 내용을 적어주세요(지우고 작성해주세요) —>
+<https://shining-pamphlet-b1d.notion.site/1-SOLID-1cc47c88ea478008ad96dd4fee053d24>
 
 - 
 - 
